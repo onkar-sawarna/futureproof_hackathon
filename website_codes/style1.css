@@ -1,0 +1,261 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	background: url("C:/Users/KESHAV THAKUR/Desktop/3.jpeg");
+background-color:#ffc994;
+}
+
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 8vh;
+	font-family:'poppins';
+	background-color: #5D4954;
+}
+.add
+{
+	background-color:#ca95ff; 
+}
+.add a{
+	width: 50px;
+	display: block;
+	padding: 14px;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-size: 20px;
+}
+.logo{
+	width: 120px;
+	display: block;
+	color: rgb(226, 226, 226);
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.nav-links{
+	display: flex;
+	justify-content: space-around;
+	width: 50%;
+}
+
+.nav-links li{
+	list-style: none;
+}
+
+.nav-links a{
+	width: 120px;
+	display: block;
+	padding: 14px 16px;
+	color: rgb(226, 226, 226);
+	text-decoration: none;
+	letter-spacing: 3px;
+	font-weight: bold;
+	font-size: 17px;
+	text-align: center;
+}
+
+.nav-links a:hover{
+	background-color: #F08080;
+  	color: green;
+}
+
+.nav-links a.active{
+	background-color: #2196F3;
+  	color: #ff0080;
+}
+
+#search{
+	width: 450px;
+	padding: 5px;
+	-webkit-border-radius:25px;
+	-moz-border-radius:25px;
+	border: none;
+	font-size: 18px;
+	text-align: center;
+	margin: 15px;
+}
+
+.topnav .search-container{
+	float: right;
+}
+
+.topnav input[type=text]{
+	padding: 6px;
+	margin-top: 8px;
+	font-size: 17px;
+	border: none;
+}
+
+.add{
+	width: 550px;
+	border: 10px solid #5D4954;
+	padding: 30px;
+	margin: 60px;
+	box-shadow: 5px 2px #26004d;
+}
+.add p{
+	text-align:center;
+	font-weight:bold;
+	font-size:1.2em;
+	text-shadow: 1px 1px #5D4954;
+}
+
+.add a{
+	width: 50px;
+	display: block;
+	padding: 14px;
+	padding-left:200px;
+	color: #6red;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-size: 10px;
+text-align: center
+}
+.add a.active{
+	background-color: #2196F3;
+  	color: #ff0080;
+}
+
+#left-box{
+float: left;
+}
+
+#middle-box{
+	float: left;
+    margin-left:100px; 
+}
+
+#right-box{
+	float:right;
+	margin-right: 20px;
+}
+
+
+.add1{
+	width: 350px;
+	border: 10px solid black;
+	padding: 30px;
+	margin: 20px;
+}
+
+.add1 a{
+	width: 50px;
+	display: block;
+	padding: 14px;
+	color: #66ff33;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-size: 10px;
+
+}
+
+.add2{
+	width: 350px;
+	border: 10px solid black;
+	padding: 30px;
+	margin: 20px;
+
+
+}
+
+.add2 a{
+	width: 50px;
+	display: block;
+	padding: 14px;
+	color: #66ff33;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-size: 10px;
+}
+
+.contact-area{
+	height: 6px;
+	width: auto;
+	border: 10px;
+	padding-top:  50px;
+	margin: auto;
+  	width: 100%;
+  	border: 3px solid white;
+  	padding: 20px;
+}
+
+.contact{
+	margin-top: 50px;
+	padding-top: 500px;
+	bottom: 0px;
+  	width: 50%;
+  	border: 3px solid #fff;
+  	margin: 0;
+
+}
+
+#contact{
+	float: left;
+	margin: auto;
+	margin-top: 10px;
+	text-align: center;
+
+}
+.row1{
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  background-color: #5D4954;
+  border-top: 0;
+  margin-bottom:0;
+}
+
+form input,
+form textarea{
+	display: block;
+	width: 50%;
+	padding: 10px;
+	background-color: #252627;
+	border: 2px solid #707070;
+	margin: 10px 0;
+	outline: none;
+	color: #fff;
+	position: relative;
+	left: 50%;
+	right: 50%;
+	transform: translateX(-50%);
+}
+form textarea
+{
+	height:60px;
+}
+
+form input:last-child{
+	width: 150px;
+	background-color: #kkk;
+	border: none;
+	cursor: pointer;
+}
+
+footer hr{
+	border: 2px solid #707070;
+	margin-top: 10px;
+}
+
+footer p{
+	text-align: center;
+	color: #707070;
+	font-size: 10px;
+	padding: 10px 0;
+}
+
